@@ -1,0 +1,17 @@
+Have used Monte Carlo Method for optimal control
+
+On employing 1000 episodes only once, I got a plot with a very high variance. 
+Then I took an average reward for 20 such iterations of 1000 episodes each, which worked well.
+
+All other assumptions and explanations have been included in comments
+
+
+Some inferences: 
+1. Clearly, for epsilon=0 (no exploration), there is a high chance of selecting a suboptimal policy.
+2. As epsilon increases, the agent also explores other outcomes and so the achieved reward is higher.
+3. Higher the epsilon, later does the net reward stabilise.
+
+
+Resources used other than those provided:
+ChatGPT(gave my code to remove the earlier noise, but it just made it dearer to the eyes and did nothing to the noise)
+
