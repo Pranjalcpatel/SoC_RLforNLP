@@ -1,0 +1,33 @@
+﻿Have used Monte Carlo Method for optimal control
+Getting a very noisy plot
+
+
+Have checked the math by deploying the code on 2/3 iterations
+All assumptions and explanations have been included in comments
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+Some inferences (which hold even in these noisy plots):
+1. Clearly, for epsilon=0 (no exploration), there is a high chance of selecting a suboptimal policy
+2. As epsilon increases, the agent also explores other outcomes and so the achieved reward is higher.
+
+
+
+
+
+
+Resources used other than those provided:
+ChatGPT(gave my code to remove the noise, but it just made it dear to the eyes and the noise persisted)
